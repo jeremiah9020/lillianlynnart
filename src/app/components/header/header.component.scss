@@ -1,0 +1,35 @@
+:host {
+  background-color: var(--tan-10-10);
+  border-bottom: 1px solid var(--tan-10-40);
+  overflow: hidden;
+
+
+  height: 60px;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  img {
+    max-height: 100%;
+    object-fit: contain;
+    cursor: pointer;
+  }
+
+  span {
+    font-size: 40px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    transform: translateY(-5px);
+    cursor: pointer;
+  }
+
+  fa-icon {
+    cursor: pointer;
+    transform: translateY(5px);
+    font-size: 28px;
+  }
+}

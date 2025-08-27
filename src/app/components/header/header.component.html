@@ -1,0 +1,17 @@
+<img routerLink="" src="android-chrome-512x512.png">
+<span routerLink="" class="title body-font-300">Lillian Lynn</span>
+
+
+<fa-icon [icon]="hamburgerIcon" (click)="onHamburgerClick($event)"/>
+
+@if (showNavigation) {
+  <app-navigation (close)="showNavigation = false" @slideRight/>
+}
+
+<!--
+
+<nav>
+  <a routerLink="">Home</a>
+  <a routerLink="about">About</a>
+</nav>
+ -->

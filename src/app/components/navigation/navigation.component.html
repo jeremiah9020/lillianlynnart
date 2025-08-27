@@ -1,0 +1,5 @@
+<nav>
+  <span routerLinkActive="active" routerLink="home" class="link body-font-400" (click)="close.emit()">Home</span>
+  <span routerLinkActive="active" routerLink="about" class="link body-font-400" (click)="close.emit()">About</span>
+</nav>
+<fa-icon #icon [icon]="closeIcon" (click)="close.emit()"/>
