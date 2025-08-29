@@ -38,7 +38,11 @@
     flex: 1 1 100%;
 
     img {
-      cursor: pointer;
+      pointer-events: none;
+      &.openable {
+        cursor: pointer;
+        pointer-events: all;
+      }
 
       &:hover {
         filter: brightness(80%);
