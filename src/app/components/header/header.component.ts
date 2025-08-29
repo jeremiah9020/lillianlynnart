@@ -27,12 +27,7 @@ export class HeaderComponent {
   public hamburgerIcon = faBars;
   public showNavigation = false;
 
-  @HostListener('window:click', []) protected onWindowClick() {
-    this.showNavigation = false;
-  }
-
-  public onHamburgerClick(event: MouseEvent) {
+  public onHamburgerClick() {
     this.showNavigation = true;
-    event.stopPropagation();
   }
 }

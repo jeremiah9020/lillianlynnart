@@ -46,3 +46,10 @@ $weights: 300, 400, 500, 600, 700, 800, 900;
     font-style: normal;
   }
 }
+
+.no-select {
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+  user-select: none; /* Standard syntax */
+}

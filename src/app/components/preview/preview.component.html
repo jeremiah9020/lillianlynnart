@@ -1,0 +1,7 @@
+
+<div #container class="container no-select">
+  <fa-icon class="left arrow" [icon]="leftArrow" (click)="cycleIndex(-1)"/>
+  <img [src]="images[_index()]">
+  <fa-icon class="right arrow" [icon]="rightArrow" (click)="cycleIndex(1)"/>
+  <fa-icon class="close" [icon]="closeIcon" (click)="indexChange.emit(-1)"/>
+</div>

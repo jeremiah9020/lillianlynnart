@@ -2,7 +2,7 @@
 <span routerLink="" class="title body-font-300">Lillian Lynn</span>
 
 
-<fa-icon [icon]="hamburgerIcon" (click)="onHamburgerClick($event)"/>
+<fa-icon [icon]="hamburgerIcon" (click)="onHamburgerClick()"/>
 
 @if (showNavigation) {
   <app-navigation (close)="showNavigation = false" @slideRight/>
