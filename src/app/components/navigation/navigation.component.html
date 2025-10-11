@@ -1,5 +1,8 @@
 <nav>
   <span routerLinkActive="active" routerLink="home" class="link body-font-400" (click)="close.emit()">Home</span>
-  <span routerLinkActive="active" routerLink="about" class="link body-font-400" (click)="close.emit()">About</span>
+  <!-- <span routerLinkActive="active" routerLink="about" class="link body-font-400" (click)="close.emit()">About</span> -->
+  <span routerLinkActive="active" routerLink="paintings" class="link body-font-400" (click)="close.emit()">Paintings</span>
+  <span routerLinkActive="active" routerLink="ceramics" class="link body-font-400" (click)="close.emit()">Ceramics</span>
+  <span routerLinkActive="active" routerLink="exhibitions" class="link body-font-400" (click)="close.emit()">Exhibitions</span>
 </nav>
 <fa-icon #icon [icon]="closeIcon" (click)="close.emit()"/>
