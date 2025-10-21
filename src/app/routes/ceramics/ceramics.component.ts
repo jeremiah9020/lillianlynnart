@@ -9,7 +9,9 @@ import { GalleryComponent } from '../../components/gallery/gallery.component';
 })
 export class CeramicsComponent {
   private files = signal([
+    'lady',
     '2heads',
+    'man',
     '2heads2',
     '2heads3',
     '2heads4',
@@ -29,8 +31,6 @@ export class CeramicsComponent {
     'head10',
     'head11',
     'head12',
-    'lady',
-    'man',
   ]);
 
   public images = computed(() => this.files().map((x) => `ceramics/${x}.jpg`));
