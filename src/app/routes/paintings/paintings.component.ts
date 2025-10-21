@@ -9,6 +9,10 @@ import { GalleryComponent } from '../../components/gallery/gallery.component';
 })
 export class PaintingsComponent {
   private files = signal([
+    'Dutch',
+    'woods',
+    'whitepumpkin',
+    'orangepumpkin',
     'cannonbeach',
     'couple',
     'couple2',
